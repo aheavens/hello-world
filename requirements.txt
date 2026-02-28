@@ -1,0 +1,11 @@
+# PDF Search Tool — Python dependencies
+# Install all at once:  pip install -r requirements.txt
+
+# Core PDF text extraction (fast, reliable, handles most PDFs)
+PyMuPDF>=1.23.0
+
+# OCR support — only needed for scanned / image-based PDFs
+# Skip these three lines if you only have text-based PDFs
+pytesseract>=0.3.10
+Pillow>=10.0.0
+pdf2image>=1.17.0
